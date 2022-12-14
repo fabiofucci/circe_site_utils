@@ -51,4 +51,4 @@ jobs:
 
       - name: KUBECTL Deploy Circe Website BE
         run: |
-          kubectl -n www-circe-cloud set image deployment/circedemo-be-deploy circe-be-container=${{ env.REGISTRY }}/${{ env.DOCKER_REPO }}:${{ env.IMAGE_NAME }}
+          kubectl -n www-circe-cloud set image deployment/circe-website-be-deploy circe-website-be-container=${{ env.REGISTRY }}/${{ env.DOCKER_REPO }}:${{ env.IMAGE_NAME }}
