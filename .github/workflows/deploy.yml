@@ -3,7 +3,7 @@ run-name: "[Sito Circe BE] Pubblicazione."
 on:
   push:
     branches:
-      - "master"
+      - "main"
 env:
   REGISTRY: docker.io
   DOCKER_REPO: ${{ secrets.DOCKER_HUB_USERNAME }}/docker_repo
