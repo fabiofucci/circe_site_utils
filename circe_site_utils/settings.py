@@ -25,7 +25,7 @@ SECRET_KEY = 'w8*u*0&&je=ca7+k!@pzuhwwlqr25f3jc#ug3$b7&oox8cf!hk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.circe.cloud']
 
 
 # Application definition
