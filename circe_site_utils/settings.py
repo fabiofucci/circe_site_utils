@@ -135,7 +135,7 @@ EMAIL_PORT = os.environ.get('SMTPS_PORT')
 EMAIL_HOST_USER = os.environ.get('SMTPS_LOGIN')
 EMAIL_HOST_PASSWORD = os.environ.get('SMTPS_PASSWORD')
 EMAIL_USE_TLS = True
-EMAIL_USE_SSL = True
+EMAIL_USE_SSL = False
 
 # GOOGLE RECAPTCHA
 GRC_SECRET = os.environ.get('GRC_SECRET')
